@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="registration">Registration Form</div>
+      <form id="user-form">
+        <div class="sub-container">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            placeholder="Enter full name"
+          />
+        </div>
+
+        <div class="sub-container">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="Enter email"
+          />
+        </div>
+        <div class="sub-container">
+          <label for="phone">Phone No</label>
+          <input type="text" name="phone" required id="phone" placeholder="Enter Phone Number" />
+        </div>
+
+        <div class="sub-container">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            placeholder="Enter password"
+          />
+        </div>
+        <div class="sub-container">
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            required
+            placeholder="Enter Confirm password"
+          />
+        </div>
+
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    <!--  <script src="./index.js"></script>-->
+      <script src="./index.js"></script>
+    </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 469px;
+    height: 530px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: auto;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+    
+}
+.sub-container label{
+    margin-top: 37px;
+    font-weight: bolder;
+    margin-left: 20px;
+    padding-left: 22px;
+
+   
+}
+.registration{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px;
+}
+.sub-container input{
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    
+}
+
+
+.sub-container{
+    margin-top: 25px;
+}
+
+label{
+    cursor: pointer;
+}
+input::placeholder {
+    text-align: center;
+   
+}
+input{
+    background-color: #F0F1F4;
+    text-indent: 10px;
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+}
+input:focus
+{ 
+    outline: none;
+    box-shadow: none;
+    border: 3px solid #0d6efd!important;
+    
+}
+
+#name{
+    margin-left: 125px;
+}
+#email{
+    margin-left: 125px;
+}
+#password{
+    margin-left: 100px;
+}
+#confirm-password{
+    margin-left: 40px;
+}
+#phone{
+    margin-left: 99px;
+}
+
+#submit{
+    width: 100px;
+    height: 50px;
+    margin-left: 42px;
+    margin-top: 24px;
+    border-radius: 5px;
+    border: #22BC53;
+    background-color: #22BC53;
+    color: white;
+}
